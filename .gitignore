@@ -1,0 +1,8 @@
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+node_modules/
+test/report.html
+test/report.json
+test/*.png

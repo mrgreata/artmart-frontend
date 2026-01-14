@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Cart | Artmart</title>
+</head>
+
+<body>
+  <header>
+    <a href="search.html">
+      <img src="artmart_logo.png" alt="Artmart" class="logo">
+    </a>
+    <nav>
+      <a href="search.html">Search</a>
+      <a href="cart.html" id="cart-link">Cart</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="cart" class="cart">
+      <div id="cart-total" class="cart-total">Total: <span id="price-total">0</span></div>
+      <button type="button" id="cart-checkout" class="cart-checkout" onclick="window.location.href='checkout.html';">Checkout</button>
+    </section>
+  </main>
+
+  <script type="module" src="cart.js"></script>
+
+</body>
+
+</html>
